@@ -1,4 +1,4 @@
-# COVID-19 Web Application
+# COMPSCI FLEX Web Application
 
 ## Description
 

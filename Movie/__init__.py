@@ -4,6 +4,10 @@ import os
 
 from flask import Flask
 
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker, clear_mappers
+from sqlalchemy.pool import NullPool
+
 import Movie.adapters.repository as repo
 from Movie.adapters.memory_repository import MemoryRepository, populate
 
